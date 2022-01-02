@@ -1,7 +1,7 @@
 # py_OSM-Static
 A python script for generating Static openstreetmap Images.
 
-Simple Command line Interface, 
+## Simple Command line Interface, 
 
 Argument 1: Latitude in FloatingPoint Notation
 
@@ -9,7 +9,7 @@ Argument 2: Longitude in FloatingPoint Notation
 
 Argument 3: ZoomLevel (0-19) 0 = Whole World 19 = Super Close
 
-Multiple Flags Selectable Afterwards:
+### Multiple Flags Selectable Afterwards:
 
   "--marker_path" allows you to set your own marker either Locally via a Filepath on your Computer or with an http / https Address
   
@@ -25,3 +25,10 @@ Multiple Flags Selectable Afterwards:
   
   "--nomarker" hides the map marker
   
+## Example:
+
+> python Static_Map.py 40.777272310196174 -73.9824607079843 12 --size 800 --filename NYC.png 
+
+generates: 
+
+![alt text](https://raw.githubusercontent.com/philipphueber/py_OSM-Static/main/NYC.png "NYC.png")
