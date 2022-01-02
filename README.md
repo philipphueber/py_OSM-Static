@@ -27,7 +27,7 @@ Argument 3: ZoomLevel (0-19) 0 = Whole World 19 = Super Close
   
 ## Example:
 
-> python Static_Map.py 40.777272310196174 -73.9824607079843 12 --size 800 --filename NYC.png 
+``` python Static_Map.py 40.777272310196174 -73.9824607079843 12 --size 800 --filename NYC.png ```
 
 generates: 
 
